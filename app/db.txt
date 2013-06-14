@@ -6,6 +6,8 @@ user_id (PK)
 status (1/0 => active or not)
 name
 email
+gender
+dob
 password
 location
 blood_type (enum: A, B, etc)
@@ -54,6 +56,7 @@ action
 object
 object_id
 read (1/0)
+date
 
 
 7. activity_log
